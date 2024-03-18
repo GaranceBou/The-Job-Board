@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./App.css";
-import Header from "./header";
-import Title from "./title";
-import Job from "./job";
-import Footer from "./footer";
+import Header from "./components/header";
+import Title from "./components/title";
+import Job from "./components/job";
+import Footer from "./components/footer";
 
 function App() {
   return (
