@@ -100,12 +100,12 @@ span {
 
 @media (max-width: 768px) {
   .Jobs {
-    width: 420px;
+    width: 400px;
   }
 
   .job {
-    width: 170px;
-    height: 170px;
+    width: 160px;
+    height: 160px;
     padding: 10px;
   }
 
@@ -114,7 +114,7 @@ span {
   }
 
   .name {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .desc {
