@@ -100,12 +100,12 @@ span {
 
 @media (max-width: 768px) {
   .Jobs {
-    width: 400px;
+    width: 390px;
   }
 
   .job {
-    width: 160px;
-    height: 160px;
+    width: 155px;
+    height: 155px;
     padding: 10px;
   }
 
