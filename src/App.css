@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #2c2c2c;
+  height: 100px;
+  font-family: Tahoma;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  line-height: 100px;
+  font-weight: bold;
+}
+
+.Jobs {
+  font-family: Tahoma;
+  width: 1020px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.job {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.name {
+  font-size: 28px;
+}
+
+footer {
+  height: 64px;
+  background-color: rgb(176, 173, 173);
+}
+
+.sign {
+  text-align: center;
+  line-height: 60px;
+  font-family: Roboto;
+}
+
+span {
+  font-weight: bold;
+}
+
+.red {
+  border: 8px solid red;
+}
+
+.green {
+  border: 8px solid green;
+}
+
+.blue {
+  border: 8px solid rgb(46, 136, 196);
+}
+
+.yellow {
+  border: 8px solid rgb(242, 242, 65);
+}
+
+.pink {
+  border: 8px solid pink;
+}
+
+.job:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .Jobs {
+    width: 700px;
+  }
+  .job {
+    width: 200px;
+    height: 200px;
+    padding: 17px;
+  }
+  .name {
+    font-size: 22px;
+  }
+
+  .desc {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Jobs {
+    width: 420px;
+  }
+
+  .job {
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+}
