@@ -1,11 +1,11 @@
 const Job = (props) => {
   return (
-    <div className="job">
-      <p className="name">{props.title}</p>
+    <article className={props.className}>
+      <h2>{props.title}</h2>
       <p className="desc">
         {props.contractType} - {props.country} - {props.city}
       </p>
-    </div>
+    </article>
   );
 };
 
